@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Las Peluquería Moreno — Peluquería &amp; Estética en Madrid</title>
+<meta name="description" content="Las Peluquería Moreno — especialistas en peluqueria en Madrid">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--primary:#2C1810;--secondary:#D4A574;--accent:#8B6914;--bg:#faf8f5;}
+body{font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:#333;margin:0;}
+.hero{background:var(--primary);color:#fff;text-align:center;padding:5rem 2rem;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:3rem;letter-spacing:2px;}
+.services{padding:4rem 2rem;max-width:900px;margin:0 auto;}
+.svc-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;}
+.svc-item{text-align:center;padding:2rem;}
+.svc-item h3{color:var(--primary);font-family:Georgia, 'Times New Roman', serif;}
+.gallery{background:#fff;padding:3rem 2rem;text-align:center;}
+.booking{background:var(--secondary);color:#fff;padding:4rem 2rem;text-align:center;}
+.btn{background:var(--accent);color:#fff;padding:.9rem 2.5rem;border-radius:30px;text-decoration:none;display:inline-block;margin-top:1rem;}
+footer{background:var(--primary);color:#fff;text-align:center;padding:2rem;}
+</style>
+</head><body>
+<nav style="background:var(--primary);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;">
+<span style="font-family:Georgia, 'Times New Roman', serif;font-size:1.4rem;font-weight:700;letter-spacing:3px;">Las Peluquería Moreno</span>
+<a class="btn" href="#reservar" style="padding:.5rem 1.2rem;font-size:.9rem;">Reservar</a>
+</nav>
+<div class="hero"><h1>Las Peluquería Moreno</h1><p>Tu peluqueria de confianza en Madrid</p><a class="btn" href="#reservar">Reservar cita</a></div>
+<section class="services">
+<h2 style="text-align:center;color:var(--primary);margin-bottom:2rem;font-family:Georgia, 'Times New Roman', serif;">Nuestros Servicios</h2>
+<div class="svc-list">
+<div class="svc-item"><h3>Corte &amp; Peinado</h3><p>Para hombre, mujer y niño.</p></div>
+<div class="svc-item"><h3>Color &amp; Mechas</h3><p>Balayage, tintes y tratamientos.</p></div>
+<div class="svc-item"><h3>Tratamientos</h3><p>Hidratación, keratina y más.</p></div>
+<div class="svc-item"><h3>Estética</h3><p>Manicura, depilación y faciales.</p></div>
+</div></section>
+<section class="gallery"><h2 style="color:var(--primary);">Galería</h2><p style="color:#888;">Nuestros trabajos más recientes.</p></section>
+<section id="reservar" class="booking">
+<h2>Reserva tu cita</h2><p>Las Peluquería Moreno — especialistas en peluqueria en Madrid</p>
+<a class="btn" href="tel:+34600000000">Llamar para reservar</a>
+</section>
+<footer><p>&copy; 2026 Las Peluquería Moreno — Madrid</p></footer>
+<script src="script.js"></script>
+</body></html>
